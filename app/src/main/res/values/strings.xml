@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculo IMC</string>
+    <string name="message">Calculo IMC</string>
+    <string name="click">Click</string>
+    <string name="message_Rating">Rating:  %1$s</string>
+
+
+</resources>
