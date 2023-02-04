@@ -2,7 +2,19 @@
     <string name="app_name">Calculo IMC</string>
     <string name="message">Calculo IMC</string>
     <string name="click">Click</string>
+    <string name="loadpage">Loading BMI Calculator</string>
+    <string name="version">Version 1.1</string>
     <string name="message_Rating">Rating:  %1$s</string>
+    <string name="under">Rating ( - 18.4 ) Under the weight</string>
+    <string name="normal">Rating ( 18.5 … 24.4 ) Normal</string>
+    <string name="overweight">Rating : ( 25 … 29.9 ) Overweight</string>
+    <string name="obesity_1">Rating ( 30 … 39,9 ) Obesity 1</string>
+    <string name="obesity_2">Rating ( 40+ ) Obesity 2</string>
+    <string name="bmi_table">BMI table</string>
+    <string name="results">Results</string>
+    <string name="yourbmi">Your BMI is:</string>
+    <string name="hintA">Enter your height</string>
+    <string name="hintp">Enter your weight</string>
 
 
 </resources>

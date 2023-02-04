@@ -12,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
-        android:hint="Enter your weight"
+        android:hint="@string/hintp"
+        android:layout_marginTop="20dp"
         android:maxLength="6"/>
-
 
     <EditText
 
@@ -22,10 +22,25 @@
         android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="Enter your height"
+        android:layout_marginTop="60dp"
+        android:hint="@string/hintA"
         android:maxLength="6"/>
 
+    <ImageView
+        android:id="@+id/imgpeso"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/peso"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/edittext_peso" />
+
+    <ImageView
+        android:id="@+id/imgaltura"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/altura"
+        android:layout_marginTop="60dp"
+        android:layout_alignEnd="@+id/edittext_peso"/>
 
     <Button
         android:id="@+id/btnCalcular"

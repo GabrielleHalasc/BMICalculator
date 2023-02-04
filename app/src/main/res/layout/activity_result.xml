@@ -10,7 +10,7 @@
         android:layout_marginTop="18dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your BMI is:"
+        android:text="@string/yourbmi"
         android:textColor="@color/purple_700"
         android:textSize="20sp"
         android:textStyle="bold"/>
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:textSize="38sp"
-        android:text="Results"/>
+        android:text="@string/results"/>
     <TextView
         android:id="@+id/tv_Rating"
         android:layout_width="match_parent"
@@ -33,37 +33,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="BMI table"
+        android:text="@string/bmi_table"
         android:textAlignment="center"
         android:textColor="@color/purple_700"/>
 
     <TextView
 
-        android:text="Rating ( - 18.4 ) Under the weight "
+        android:text="@string/under"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:textSize="20sp"/>
     <TextView
-        android:text="Rating ( 18.5 ... 24.4 ) Normal"
+        android:text="@string/normal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:textSize="20sp"/>
     <TextView
-        android:text="Rating : ( 25 ... 29.9 ) Overweight"
+        android:text="@string/overweight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:textSize="20sp"/>
     <TextView
-        android:text="Rating ( 30 ... 39,9 ) Obesity 1"
+        android:text="@string/obesity_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:textSize="20sp"/>
     <TextView
-        android:text="Rating ( 40+ ) Obesity 2"
+        android:text="@string/obesity_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
